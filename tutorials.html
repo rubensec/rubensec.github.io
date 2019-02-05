@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Rubensec">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="keywords" content="cybersecurity, blog, rubensec, oscp, preparation, tutorial, hacking" />
+  <title>Rubensec - A cybersecurity site</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="src/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <h1 class="site-heading text-center text-white d-none d-lg-block">
+    <span class="site-heading-upper text-primary mb-3">A cybersecurity site</span>
+    <span class="site-heading-lower">Rubensec</span>
+  </h1>
+
+  <!-- Navigation -->
+  <div id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-dark py-lg-4">
+      <div class="container">
+        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">RUBENSEC</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="index.html">Home
+
+              </a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="preparation.html">OSCP Preparation</a>
+            </li>
+            <li class="nav-item active px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="tutorials.html">Tutorials</a>
+
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+
+
+  <footer class="footer-index text-faded text-center py-5">
+    <div class="container">
+      <p> <a class="btn-footer" href="https://github.com/rubensec"> GitHub</a> &nbsp;
+        | &nbsp;<a class="btn-footer" href=""> YouTube</a></p>
+      <p class="m-0 small">Copyright &copy; rubensec 2019</p>
+    </div>
+  </footer>
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="src/jquery/jquery.min.js"></script>
+  <script src="src/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script src="js/TweenLite.min.js"></script>
+  <script src="js/EasePack.min.js"></script>
+  <script src="js/rAF.js"></script>
+  
+
+  <script>
+    window.onscroll = function () { myFunction() };
+
+    var navbar = document.getElementById("mainNav");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+
+  </script>
+</body>
+
+</html>
